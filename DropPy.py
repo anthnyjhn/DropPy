@@ -7,11 +7,11 @@ import netifaces as ni
 import json
 from pathlib import Path
 
-CONFIG_FILE = Path.home() / '.upload_config.json'
+# Save config in the same directory as this script
+CONFIG_FILE = Path(__file__).parent / 'droppy_config.json'
 
 # To keep track of approved IPs
 approved_ips = set()
-
 
 def setup_upload_folder():
     if CONFIG_FILE.exists():
