@@ -44,7 +44,7 @@ For Windows:
 In Command Prompt or PowerShell, run:
 
 ```cmd
-./venv/bin/activate.bat
+venv/bin/activate
 ```
 
 ### 5. Install Required Dependencies
