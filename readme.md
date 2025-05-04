@@ -11,3 +11,6 @@ source venv/bin/activate
 
 // install all dependencies
 pip install flask qrcode[pil] terminaltables netifaces
+
+// run .py (ensure project is activated first)
+python3 filename.py
